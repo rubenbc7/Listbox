@@ -53,5 +53,13 @@ namespace Listbox
         {
             txtColor_Editar.Text = Colores[lstColores.SelectedIndex].Nombre;
         }
+
+        private void BtnActualizar_Click(object sender, RoutedEventArgs e)
+        {
+            if(lstColores.SelectedIndex != -1)
+            {
+               
+            }
+        }
     }
 }
